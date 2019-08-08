@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.info {
+  font-size: calc(10px + 1vmin);
+  position: absolute;
+  text-align: right;
+  bottom: 30px;
+  right: 30px;
+}
+
+.info_paragraph {
+  margin: 5px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.big-font {
+  color: olive;
+  font-size: calc(10px + 2vmin);
+  margin: 0 0.3vmin 0 0.7vmin;
+}
+
+.current-char-arrow {
+  color: olive;
+  position: absolute;
+  margin-top: calc(12px + 2vmin);
+}
